@@ -1,6 +1,6 @@
 variable "ami_id" {
   type          = string
-  default       = "ami-ami-0220d79f3f480ecf5"
+  default       = "ami-0220d79f3f480ecf5"
   description   = "AMI ID of joindevops RHEL9"
 }
 
