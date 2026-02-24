@@ -4,6 +4,16 @@ variable "ami_id" {
   description   = "AMI ID of joindevops RHEL9"
 }
 
+variable "vpc_id" {
+  description = "VPC ID where resources will be created"
+  type        = string
+}
+
+variable "subnet_id" {
+  description = "Subnet ID for EC2 instance"
+  type        = string
+}
+
 variable "instance_type" {
    default  = "t3.micro"
 }
